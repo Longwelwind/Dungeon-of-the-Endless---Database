@@ -1,0 +1,37 @@
+<div style="display: flex; margin-bottom: 10px;"> <!-- To make the sub-div not take all the available size -->
+    <div class="panel">
+        <div class="meta-div" style="display: flex;">
+            <div ng-include="'skill-icon.html'" style="margin-right: 10px;"></div>
+            <div class="meta-information">
+                <h2 class="meta-title">{{skill.name}}</h2>
+
+                <div class="meta-description">
+                    "{{skill.description}}"
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li ng-repeat="effect in skill.effects">{{ effect }}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div ng-show="heroSkillEntries.length > 0">
+    <table>
+        <tr>
+            <th>Hero</th>
+            <th>Level</th>
+        </tr>
+        <tr ng-repeat="skillHeroEntry in heroSkillEntries">
+            <td style="padding: 5px;">
+                <div ng-init="hero = skillHeroEntry.hero" ng-include="'hero-icon.html'"></div>
+            </td>
+            <td>
+                {{ skillHeroEntry.level }}
+            </td>
+        </tr>
+    </table>
+</div>

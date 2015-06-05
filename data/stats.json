@@ -1,0 +1,14 @@
+{
+    "stats": [
+        {
+            "tag": "health",
+            "name": "Health",
+            "index": 0
+        },
+        {
+            "tag": "defense",
+            "name": "Defense",
+            "index": 1
+        }
+    ]
+}

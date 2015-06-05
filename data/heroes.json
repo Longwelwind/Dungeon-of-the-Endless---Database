@@ -1,0 +1,1429 @@
+{
+    "heroes": [
+        {
+            "tag": "deena",
+            "name": "Nurse Deena Ratchet",
+            "description": "Ratchet is unable to do anything without screaming orders before, during, and after.  An overbearing and annoying martinet, she does not consider a job well done until the entire galaxy has heard about it. Unafraid to yell when silence will do, her voice has been classed as a lethal weapon.",
+            "stats": [
+                [400, 16, 32, 29, 26, 0.9, 5, 6, 28],
+                [453, 17, 32, 30, 27, 0.9, 5, 6, 30],
+                [510, 19, 32, 32, 29, 0.9, 5, 6, 41],
+                [571, 22, 32, 36, 32, 0.9, 5, 6, 52],
+                [636, 24, 32, 38, 34, 0.9, 5, 6, 65],
+                [705, 27, 35, 41, 37, 0.9, 5, 6, 78],
+                [778, 29, 35, 43, 39, 0.9, 5, 6, 93],
+                [855, 32, 35, 47, 42, 0.9, 5, 6, 108],
+                [936, 36, 35, 50, 45, 0.9, 5, 6, 125],
+                [1021, 39, 35, 53, 48, 0.9, 5, 6, 142],
+                [1110, 43, 37, 57, 51, 0.9, 5, 6, 161],
+                [1203, 46, 37, 60, 54, 0.9, 5, 6, 180],
+                [1300, 50, 37, 63, 57, 0.9, 5, 7, 201],
+                [1401, 55, 37, 67, 60, 0.9, 5, 7, 222],
+                [1506, 59, 37, 70, 63, 0.9, 5, 7, 245]
+            ],
+            "skills": [
+                {
+                    "skillTag": "gotyourback",
+                    "level": 1
+                },
+                {
+                    "skillTag": "scamper",
+                    "level": 1
+                },
+                {
+                    "skillTag": "paramedic",
+                    "level": 2
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 4
+                },
+                {
+                    "skillTag": "placebo",
+                    "level": 5
+                },
+                {
+                    "skillTag": "verbalabuse",
+                    "level": 7
+                },
+                {
+                    "skillTag": "ironfist",
+                    "level": 8
+                },
+                {
+                    "skillTag": "paramedic",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "placebo",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "ironfist",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "paramedic",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "elise",
+            "name": "Elise Ness",
+            "description": "Elise \"Boom-Boom\" Ness is a lawperson who walks the ragged edge between justice and vigilantism. Reasoning that the crime of \"Breaking and Entering\" should be a two-way street, she earned her nickname due to her fondness for storming criminal hideouts with heavy duty weaponry.",
+            "stats": [
+                [500,31,25,41,49,1.2,4,4,28],
+                [544,34,25,43,51,1.2,4,4,30],
+                [592,36,25,45,54,1.2,4,4,41],
+                [642,39,25,47,56,1.2,4,4,52],
+                [696,42,25,49,59,1.2,4,4,65],
+                [752,45,25,52,62,1.2,4,4,78],
+                [812,49,25,53,64,1.2,4,5,93],
+                [874,52,25,56,67,1.2,4,5,108],
+                [940,56,25,58,70,1.2,4,5,125],
+                [1008,60,25,61,73,1.2,4,5,142],
+                [1080,64,25,63,76,1.2,4,5,161],
+                [1154,69,25,66,79,1.2,4,5,180],
+                [1232,73,25,68,82,1.2,4,6,201],
+                [1312,78,25,71,85,1.2,4,6,222],
+                [1396,83,25,73,88,1.2,4,6,245]
+            ],
+            "skills": [
+                {
+                    "skillTag": "gotyourback",
+                    "level": 1
+                },
+                {
+                    "skillTag": "dustcells",
+                    "level": 1
+                },
+                {
+                    "skillTag": "engageturtlemode",
+                    "level": 3
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 4
+                },
+                {
+                    "skillTag": "shrapnellizer",
+                    "level": 6
+                },
+                {
+                    "skillTag": "ironfist",
+                    "level": 8
+                },
+                {
+                    "skillTag": "shrapnellizer",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "engageturtlemode",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "dustcells",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "shrapnellizer",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ],
+            "slots": [
+                "machinegun",
+                "device",
+                "device"
+            ]
+        },
+        {
+            "tag": "ken",
+            "name": "Ken Massoqui",
+            "description": "An ex-member of the Special Forces, Ken's biggest problem was the fact that he enjoys self-inflicted pain. Always willing to join a knife fight armed with a tennis ball, Ken was the first volunteer for any mission that was hazardous and brutal.",
+            "stats": [
+                [555,13,37,39,39,1,3,3,28],
+                [595,14,37,41,41,1,3,3,30],
+                [535,15,37,44,44,1,3,3,41],
+                [575,17,37,46,46,1,3,3,52],
+                [615,19,37,48,48,1,3,3,65],
+                [656,20,37,51,51,1,3,3,78],
+                [695,22,37,53,53,1,3,3,93],
+                [735,24,37,56,56,1,3,3,108],
+                [775,26,37,59,59,1,3,3,125],
+                [815,28,37,62,62,1,3,3,142],
+                [855,30,37,65,65,1,3,3,161],
+                [895,32,37,68,68,1,3,3,180],
+                [935,34,37,71,71,1,3,3,201],
+                [975,37,37,74,74,1,3,3,222],
+                [1115,39,37,77,77,1,3,3,245]
+            ],
+            "skills": [
+                {
+                    "skillTag": "gotyourback",
+                    "level": 1
+                },
+                {
+                    "skillTag": "sadoselfish",
+                    "level": 1
+                },
+                {
+                    "skillTag": "dangerjunkie",
+                    "level": 3
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 5
+                },
+                {
+                    "skillTag": "sacrifice",
+                    "level": 7
+                },
+                {
+                    "skillTag": "kneedeepinblood",
+                    "level": 9
+                },
+                {
+                    "skillTag": "sadoselfish",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "sacrifice",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "dangerjunkie",
+                    "level": 15,
+                    "skillLevel": 2
+                }
+            ]
+        },
+        {
+            "tag": "mormish",
+            "name": "Warden Mormish",
+            "description": "Mormish was a reclusive and largely invisible personage before the crash, but now seems to have come out of his shell. Instead of hiding and giving orders through others, he is loud, present, and pushy; people get the feeling that he is trying to sell them something.",
+            "stats": [
+                [615,17,21,18,27,1.5,4,11,28],
+                [655,18,21,19,29,1.5,4,11,30],
+                [695,20,21,20,30,1.5,4,11,41],
+                [735,22,21,21,32,1.5,4,12,52],
+                [775,24,21,23,34,1.5,4,12,65],
+                [815,26,21,24,36,1.5,4,12,78],
+                [855,28,21,25,38,1.5,4,13,93],
+                [895,30,21,27,40,1.5,4,13,108],
+                [935,33,21,28,42,1.5,4,13,125],
+                [975,35,21,30,45,1.5,4,14,142],
+                [1015,38,21,32,48,1.5,4,14,161],
+                [1055,40,21,33,50,1.5,4,14,180],
+                [1095,43,21,35,52,1.5,4,15,201],
+                [1135,46,21,37,55,1.5,4,15,222],
+                [1175,49,21,39,58,1.5,4,15,245]
+            ],
+            "skills": [
+                {
+                    "skillTag": "gotyourback",
+                    "level": 1
+                },
+                {
+                    "skillTag": "needformorespeed",
+                    "level": 1
+                },
+                {
+                    "skillTag": "warprofiteer",
+                    "level": 2
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 4
+                },
+                {
+                    "skillTag": "armchairgeneral",
+                    "level": 5
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 7
+                },
+                {
+                    "skillTag": "teamspirit",
+                    "level": 8
+                },
+                {
+                    "skillTag": "warprofiteer",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "armchairgeneral",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "needformorespeed",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "armchairgeneral",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "nanor",
+            "name": "Chef Nanor",
+            "description": "The youngest prodigy from a proud family of galactically famous chefs, Nanor ended up disgraced when he unwittingly purchased \"black Andromedan truffles\" that turned out to be pellets of Velan rabbit dung. Fighting to rebuild his reputation, he is a ruthless and uncompromising opponent who can turn anyone and anything into lunchmeat.",
+            "stats": [
+                [580,19,29,25,38,1.5,1,5,28],
+                [626,20,29,27,40,1.5,1,5,30],
+                [676,22,29,28,42,1.5,1,5,41],
+                [730,24,29,29,44,1.5,1,5,52],
+                [788,26,29,31,47,1.5,1,5,65],
+                [850,28,29,33,49,1.5,1,5,78],
+                [916,30,29,34,51,1.5,1,5,93],
+                [986,33,29,36,54,1.5,1,5,108],
+                [1060,35,29,38,57,1.5,1,5,125],
+                [1138,38,29,40,60,1.5,1,5,142],
+                [1220,40,29,42,63,1.5,1,5,161],
+                [1306,43,29,44,66,1.5,1,5,180],
+                [1396,46,29,46,69,1.5,1,5,201],
+                [1490,49,29,48,72,1.5,1,5,222],
+                [1584,52,29,50,75,1.5,1,5,245]
+            ],
+            "slots": [
+                "sword",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "lastsupper",
+                    "level": 1
+                },
+                {
+                    "skillTag": "gotyourback",
+                    "level": 1
+                },
+                {
+                    "skillTag": "extenders",
+                    "level": 3
+                },
+                {
+                    "skillTag": "cookingwithgas",
+                    "level": 5
+                },
+                {
+                    "skillTag": "soylentgreen",
+                    "level": 7
+                },
+                {
+                    "skillTag": "lastsupper",
+                    "level": 9,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "extenders",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "cookingwithgas",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "lastsupper",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "sara",
+            "name": "Sara Numas",
+            "description": "Famous across the galaxy as a bounty hunter, Sara was hired to escort a particularly troublesome prisoner to Auriga. The prisoner in question, an ex-leader of intergalactic pirates, disappeared when the ship went down. Sara remains tight-lipped about it, but is clearly focused on finding the escapee in question and ensuring that justice is served.",
+            "stats": [
+                [350,13,46,25,20,0.8,1.5,5,28],
+                [394,15,47,26,21,0.8,1.5,5,30],
+                [442,16,48,29,23,0.8,1.5,5,41],
+                [492,18,49,33,26,0.8,1.5,5,52],
+                [546,20,50,35,28,0.8,1.5,5,65],
+                [602,22,51,38,30,0.8,1.5,5,78],
+                [662,24,52,41,33,0.8,1.5,5,93],
+                [724,26,53,45,36,0.8,1.5,5,108],
+                [790,29,54,49,39,0.8,1.5,5,125],
+                [858,31,55,53,42,0.8,1.5,5,142],
+                [930,33,56,56,45,0.8,1.5,5,161],
+                [1004,36,57,60,48,0.8,1.5,5,180],
+                [1082,39,58,64,51,0.8,1.5,5,201],
+                [1162,41,59,68,54,0.8,1.5,5,222],
+                [1246,44,60,71,57,0.8,1.5,5,245]
+            ],
+            "slots": [
+                "sword",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "runaway",
+                    "level": 1
+                },
+                {
+                    "skillTag": "gotyourback",
+                    "level": 1
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 3
+                },
+                {
+                    "skillTag": "neurostunlite",
+                    "level": 4
+                },
+                {
+                    "skillTag": "engageturtlemode",
+                    "level": 6
+                },
+                {
+                    "skillTag": "pickpocket",
+                    "level": 7
+                },
+                {
+                    "skillTag": "runaway",
+                    "level": 9,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "neurostunlite",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "engageturtlemode",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "runaway",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "golgy",
+            "name": "Golgy Phurtiver",
+            "description": "A useful burglar and very light on her feet, Golgy's biggest problem is that she is convinced she is a spider. She tends to move sideways and skuttle next to walls, but as long as you don't mind having a partner who eats insects she's a fine addition to any criminal effort.",
+            "stats": [
+                [350,18,43,44,35,0.8,1.1,5,33],
+                [394,20,43,49,39,0.8,1.1,5,25],
+                [442,23,43,55,44,0.8,1.1,5,36],
+                [492,25,43,60,48,0.8,1.1,5,47],
+                [546,28,43,66,53,0.8,1.1,5,60],
+                [602,30,44,73,58,0.8,1.1,6,73],
+                [662,33,44,79,63,0.8,1.1,6,88],
+                [724,35,44,85,68,0.8,1.1,6,103],
+                [790,38,44,91,73,0.8,1.1,6,120],
+                [858,40,44,98,78,0.8,1.1,6,137],
+                [930,40,45,104,83,0.8,1.1,6,156],
+                [1004,40,45,110,88,0.8,1.1,6,175],
+                [1082,40,45,118,94,0.8,1.1,7,196],
+                [1162,40,45,124,99,0.8,1.1,7,217],
+                [1246,40,45,130,104,0.8,1.1,7,240]
+            ],
+            "slots": [
+                "armor",
+                "device",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "packofdogs",
+                    "level": 1
+                },
+                {
+                    "skillTag": "pickpocket",
+                    "level": 1
+                },
+                {
+                    "skillTag": "webslinger",
+                    "level": 2
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 4
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 5
+                },
+                {
+                    "skillTag": "crawler",
+                    "level": 7
+                },
+                {
+                    "skillTag": "nyctophilia",
+                    "level": 8
+                },
+                {
+                    "skillTag": "webslinger",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "pickpocket",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "crawler",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "pickpocket",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "gork",
+            "name": "Gork \"Butcher\" Koroser",
+            "description": "An enormous, powerful man with a violent temper and an angry face, every sentient human that has ever met Gork has been terrified of him. When in a bad mood, he has been known to rip off the arms of animals, people, and construction equipment.",
+            "stats": [
+                [590,19,18,41,41,1,4,2,33],
+                [655,22,18,42,42,1,4,2,25],
+                [736,25,18,44,44,1,4,2,36],
+                [833,28,18,47,47,1,4,2,47],
+                [946,31,18,49,49,1,4,2,60],
+                [1075,34,20,51,51,1,4,2,73],
+                [1220,37,20,54,54,1,4,2,88],
+                [1381,40,20,56,56,1,4,2,103],
+                [1558,43,20,59,59,1,4,2,120],
+                [1751,46,20,62,62,1,4,2,137],
+                [1960,46,21,65,65,1,4,3,156],
+                [2185,46,21,68,68,1,4,3,175],
+                [2426,46,21,72,72,1,4,3,196],
+                [2683,46,21,75,75,1,4,3,217],
+                [2956,46,21,79,79,1,4,3,240]
+            ],
+            "slots": [
+                "machinegun",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "packofdogs",
+                    "level": 1
+                },
+                {
+                    "skillTag": "psychokiller",
+                    "level": 1
+                },
+                {
+                    "skillTag": "soylentgreen",
+                    "level": 3
+                },
+                {
+                    "skillTag": "warcry",
+                    "level": 5
+                },
+                {
+                    "skillTag": "bloodyshowman",
+                    "level": 7
+                },
+                {
+                    "skillTag": "psychokiller",
+                    "level": 9,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "bloodyshowman",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "warcry",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "psychokiller",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+
+            ]
+        },
+        {
+            "tag": "max",
+            "name": "Max O'Kane",
+            "description": "Max is eternally optimistic, mostly because he is too terrified of where he is to think about it seriously. He will always be looking to profit from a situation -- get extra loot, take one more object, spend less money etc. -- even if it puts him in a bad (risky) position or earns angry comments from his heroes.",
+            "stats": [
+                [400,11,34,23,21,0.9,4,8,33],
+                [451,13,34,24,22,0.9,4,8,25],
+                [506,16,34,27,24,0.9,4,8,36],
+                [565,18,35,29,26,0.9,4,8,47],
+                [628,20,37,30,28,0.9,4,8,60],
+                [695,22,37,33,30,0.9,4,8,73],
+                [766,24,37,36,32,0.9,4,8,88],
+                [841,27,37,38,34,0.9,4,8,103],
+                [920,29,39,41,37,0.9,4,8,120],
+                [1003,31,39,44,40,0.9,4,8,137],
+                [1090,31,39,48,43,0.9,4,8,156],
+                [1181,31,39,51,46,0.9,4,8,175],
+                [1276,31,40,56,50,0.9,4,8,196],
+                [1375,31,40,60,54,0.9,4,8,217],
+                [1478,31,40,64,58,0.9,4,8,240]
+            ],
+            "slots": [
+                "gun",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "packofdogs",
+                    "level": 1
+                },
+                {
+                    "skillTag": "endlessexpert",
+                    "level": 1
+                },
+                {
+                    "skillTag": "verbalabuse",
+                    "level": 2
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 4
+                },
+                {
+                    "skillTag": "pilfer",
+                    "level": 5
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 7
+                },
+                {
+                    "skillTag": "runaway",
+                    "level": 9
+                },
+                {
+                    "skillTag": "pilfer",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "verbalabuse",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "endlessexpert",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "pilfer",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "opbot",
+            "name": "Opbot DV8",
+            "description": "A simple medical assistant, its occupation is currently listed as \"Emergency Paramedic\". No current information on its role before the crash is available, and it is unknown if DV8 was prisoner, guard or crew. And everyone wonders where that nickname came from.",
+            "stats": [
+                [440,13,34,20,20,1,1.5,10,33],
+                [486,15,34,21,21,1,1.5,10,25],
+                [536,18,34,22,22,1,1.5,10,36],
+                [590,20,34,24,24,1,1.5,11,47],
+                [648,23,35,25,25,1,1.5,11,60],
+                [710,25,38,27,27,1,1.5,11,73],
+                [776,28,38,28,28,1,1.5,12,88],
+                [846,30,38,30,30,1,1.5,12,103],
+                [920,33,38,32,32,1,1.5,12,120],
+                [998,34,38,34,34,1,1.5,13,137],
+                [1080,34,40,36,36,1,1.5,13,156],
+                [1166,34,40,38,38,1,1.5,13,175],
+                [1256,34,40,40,40,1,1.5,14,196],
+                [1350,34,40,43,43,1,1.5,14,217],
+                [1448,34,40,45,45,1,1.5,14,240]
+            ],
+            "slots": [
+                "spear",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "packofdogs",
+                    "level": 1
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 1
+                },
+                {
+                    "skillTag": "surgicalstriker",
+                    "level": 2
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 3
+                },
+                {
+                    "skillTag": "recycling",
+                    "level": 5
+                },
+                {
+                    "skillTag": "paramedic",
+                    "level": 6
+                },
+                {
+                    "skillTag": "masterhacker",
+                    "level": 8
+                },
+                {
+                    "skillTag": "surgicalstriker",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "recycling",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "masterhacker",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "recycling",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "rakya",
+            "name": "Rakya Pulmoni",
+            "description": "Rakya was originally known as \"Kneecapper\" for her ability to bring a computer system to its knees. However, as cigarettes were illegal on the ship she ended up extending her meager supply by mixing in anything that burned. The result of six months smoking a mixture of tobacco, paper, rat droppings, and coffee grounds gave her a cough that sounds like the Devil calling your name.",
+            "stats": [
+                [400,14,26,24,26,1.1,4.5,9,33],
+                [450,15,26,25,28,1.1,4.5,9,25],
+                [502,17,26,27,30,1.1,4.5,9,36],
+                [556,18,26,29,32,1.1,4.5,10,47],
+                [612,20,26,32,35,1.1,4.5,10,60],
+                [670,21,26,35,38,1.1,4.5,10,73],
+                [730,23,26,38,42,1.1,4.5,11,88],
+                [792,24,30,42,46,1.1,4.5,11,103],
+                [856,26,30,45,50,1.1,4.5,11,120],
+                [922,27,30,49,54,1.1,4.5,12,137],
+                [990,27,30,54,59,1.1,4.5,12,156],
+                [1060,27,30,58,64,1.1,4.5,12,175],
+                [1132,27,30,63,69,1.1,4.5,13,196],
+                [1206,27,30,67,74,1.1,4.5,13,217],
+                [1282,27,30,73,80,1.1,4.5,13,240]
+            ],
+            "slots": [
+                "machinegun",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "packofdogs",
+                    "level": 1
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 1
+                },
+                {
+                    "skillTag": "overclocked",
+                    "level": 2
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 3
+                },
+                {
+                    "skillTag": "masterhacker",
+                    "level": 5
+                },
+                {
+                    "skillTag": "healthwarning",
+                    "level": 7
+                },
+                {
+                    "skillTag": "theoptimizator",
+                    "level": 8
+                },
+                {
+                    "skillTag": "overclocked",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "healthwarning",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "theoptimizator",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "overclocked",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "troe",
+            "name": "Troe Pekenyo",
+            "description": "An unusually tiny humanoid, Troe's small stature went from a mere annoyance to a cause of insanity.  Obsessed with his height, Troe enhanced his bones and muscles to the point where he could carry ridiculously large weapons - and he tends to use them on anyone who makes 'short' jokes",
+            "stats": [
+                [700,14,32,36,29,0.8,1.2,2,33],
+                [750,16,32,38,30,0.8,1.2,2,25],
+                [800,17,32,40,32,0.8,1.2,2,36],
+                [850,19,32,41,33,0.8,1.2,2,47],
+                [900,21,32,44,35,0.8,1.2,2,60],
+                [950,23,32,45,36,0.8,1.2,2,73],
+                [1000,25,32,48,38,0.8,1.2,2,88],
+                [1050,26,32,49,39,0.8,1.2,2,103],
+                [1100,28,32,51,41,0.8,1.2,2,120],
+                [1150,30,32,53,42,0.8,1.2,2,137],
+                [1200,30,32,55,44,0.8,1.2,2,156],
+                [1250,30,32,58,46,0.8,1.2,2,175],
+                [1300,30,32,59,47,0.8,1.2,2,196],
+                [1350,30,32,61,49,0.8,1.2,2,217],
+                [1400,30,32,64,51,0.8,1.2,2,240]
+            ],
+            "slots": [
+                "sword",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "packofdogs",
+                    "level": 1
+                },
+                {
+                    "skillTag": "psychokiller",
+                    "level": 1
+                },
+                {
+                    "skillTag": "scamper",
+                    "level": 3
+                },
+                {
+                    "skillTag": "missedagain",
+                    "level": 5
+                },
+                {
+                    "skillTag": "kneecapped",
+                    "level": 7
+                },
+                {
+                    "skillTag": "kneedeepinblood",
+                    "level": 9
+                },
+                {
+                    "skillTag": "psychokiller",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "missedagain",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "kneedeepinblood",
+                    "level": 15,
+                    "skillLevel": 2
+                }
+            ]
+        },
+        {
+            "tag": "hikensha",
+            "name": "Hikensha",
+            "description": "Hikensha knows little other than this lab where she grew up. Coming from an avian warrior race whose DNA was altered to maximize their value in arena battles, she imprinted psychologically on images and artifacts of her lost people. Those may only be loot to other adventurers; to Hikensha they are her birthright.",
+            "stats": [
+                [500,25,29,36,32,0.9,1.5,5,18],
+                [546,26,29,37,33,0.9,1.5,5,15],
+                [596,27,29,38,34,0.9,1.5,5,25],
+                [650,28,29,40,36,0.9,1.5,6,35],
+                [708,29,29,41,37,0.9,1.5,6,47],
+                [770,30,30,42,38,0.9,1.5,6,59],
+                [836,31,30,44,40,0.9,1.5,7,73],
+                [906,32,30,46,41,0.9,1.5,7,87],
+                [980,36,30,49,44,0.9,1.5,7,103],
+                [1058,39,30,53,48,0.9,1.5,8,119],
+                [1140,42,31,57,51,0.9,1.5,8,137],
+                [1226,46,31,61,55,0.9,1.5,8,155],
+                [1316,50,31,64,58,0.9,1.5,9,175],
+                [1410,53,31,69,62,0.9,1.5,9,195],
+                [1508,56,31,72,65,0.9,1.5,9,217]
+            ],
+            "slots": [
+                "sword",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "nyctophilia",
+                    "level": 1
+                },
+                {
+                    "skillTag": "warface",
+                    "level": 2
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 4
+                },
+                {
+                    "skillTag": "endlessexpert",
+                    "level": 5
+                },
+                {
+                    "skillTag": "sacrifice",
+                    "level": 7
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 8
+                },
+                {
+                    "skillTag": "nyctophilia",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "warface",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "endlessexpert",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "sacrifice",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+
+            ]
+        },
+        {
+            "tag": "joleri",
+            "name": "Lady Joleri Tuga",
+            "description": "A rogue and adventurer. Joleri was generally found mounted and with a weapon in her hand. She has traveled far and wide on the continent, enriching herself by finding and selling Endless artifacts. However, she was trapped in the dungeon when running from beasts that ate her steed. Now all she can think of is getting back up to the light -- and avenging her lost companion.",
+            "stats": [
+                [800,25,34,28,28,1,1.5,7,18],
+                [852,27,34,30,30,1,1.5,7,15],
+                [908,29,34,32,32,1,1.5,7,25],
+                [968,31,35,33,33,1,1.5,7,35],
+                [1032,33,35,35,35,1,1.5,7,47],
+                [1100,35,37,37,37,1,1.5,7,59],
+                [1172,37,37,38,38,1,1.5,7,73],
+                [1248,39,37,40,40,1,1.5,7,87],
+                [1328,43,37,44,44,1,1.5,8,103],
+                [1412,47,37,48,48,1,1.5,8,119],
+                [1500,51,39,52,52,1,1.5,8,137],
+                [1592,55,39,56,56,1,1.5,8,155],
+                [1688,59,39,60,60,1,1.5,8,175],
+                [1788,63,39,64,64,1,1.5,8,195],
+                [1892,67,39,68,68,1,1.5,8,217]
+            ],
+            "slots": [
+                "spear",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "scamper",
+                    "level": 1
+                },
+                {
+                    "skillTag": "dustthirst",
+                    "level": 2
+                },
+                {
+                    "skillTag": "warrider",
+                    "level": 4
+                },
+                {
+                    "skillTag": "holdtheline",
+                    "level": 6
+                },
+                {
+                    "skillTag": "energivore",
+                    "level": 8
+                },
+                {
+                    "skillTag": "dustthirst",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "warrider",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "holdtheline",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "dustthirst",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "mizi",
+            "name": "Mizi Kurtiz",
+            "description": "While rumor says Mizi is possessed by a demon, the truth is different. In fact, the same physical space is occupied by different entities from two distinct planes of reality. As the planes move closer together or farther apart, one or the other personality becomes dominant. This has made it difficult for her to develop serious long-term relationships. On the plus side, the other entity is an ancient demonic war hero which has helped keep insults to a minimum.",
+            "stats": [
+                [600,18,27,40,60,1.5,4,1,18],
+                [650,20,27,42,63,1.5,4,1,15],
+                [700,22,27,44,66,1.5,4,1,25],
+                [750,23,27,46,69,1.5,4,1,35],
+                [800,25,27,48,72,1.5,4,1,47],
+                [850,27,27,50,75,1.5,4,1,59],
+                [900,28,27,52,78,1.5,4,1,73],
+                [950,30,27,54,81,1.5,4,1,87],
+                [1025,35,27,59,88,1.5,4,1,103],
+                [1100,40,27,63,95,1.5,4,1,119],
+                [1175,45,27,68,102,1.5,4,1,137],
+                [1250,50,27,73,109,1.5,4,1,155],
+                [1325,55,27,77,116,1.5,4,1,175],
+                [1400,60,27,82,123,1.5,4,1,195],
+                [1800,75,32,115,150,1.3,5,1,217]
+            ],
+            "slots": [
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "badcompany",
+                    "level": 1
+                },
+                {
+                    "skillTag": "battlemadness",
+                    "level": 3
+                },
+                {
+                    "skillTag": "dangerjunkie",
+                    "level": 5
+                },
+                {
+                    "skillTag": "hellfire",
+                    "level": 7
+                },
+                {
+                    "skillTag": "battlemadness",
+                    "level": 9,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "dangerjunkie",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "hellfire",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "battlemadness",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+
+            ]
+        },
+        {
+            "tag": "skroig",
+            "name": "Skroig",
+            "description": "A light, quick, and deadly forager, Skroig has a problem of which it is completely unaware: It should have been born a rakish nobleman in the era of the Musketeers. Unusually dapper and witty for an insectoid carrion eater, always well-dressed and with a delicate palate, Skroig's wit, sophistication, and elegant use of a blade are completely wasted on its peers.",
+            "stats": [
+                [470,17,36,44,35,0.8,1.5,5,18],
+                [527,19,36,45,36,0.8,1.5,5,15],
+                [590,20,36,46,37,0.8,1.5,5,25],
+                [657,22,36,48,38,0.8,1.5,5,35],
+                [730,24,36,49,39,0.8,1.5,5,47],
+                [807,26,36,50,40,0.8,1.5,5,59],
+                [890,28,36,51,41,0.8,1.5,5,73],
+                [977,29,36,53,42,0.8,1.5,5,87],
+                [1070,33,36,56,45,0.8,1.5,6,103],
+                [1167,37,36,60,48,0.8,1.5,6,119],
+                [1270,40,36,64,51,0.8,1.5,6,137],
+                [1377,44,36,68,54,0.8,1.5,6,155],
+                [1490,48,36,71,57,0.8,1.5,6,175],
+                [1607,52,36,75,60,0.8,1.5,6,195],
+                [1730,56,36,79,63,0.8,1.5,6,217]
+            ],
+            "slots": [
+                "spear",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "lastsupper",
+                    "level": 1
+                },
+                {
+                    "skillTag": "soylentgreen",
+                    "level": 3
+                },
+                {
+                    "skillTag": "redplume",
+                    "level": 5
+                },
+                {
+                    "skillTag": "kneedeepinblood",
+                    "level": 7
+                },
+                {
+                    "skillTag": "redplume",
+                    "level": 9,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "soylentgreen",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "lastsupper",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "redplume",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "josh",
+            "name": "Josh 'Ntello",
+            "description": "One of the few remaining humanoids in the galaxy to wear a tweed jacket and smoke a pipe, Josh is willing to give long (and generally inaccurate) explanations of any object, event, or person. Many suspect that he was imprisoned for boring people to death.",
+            "stats": [
+                [400,11,28,17,20,1.2,4,13,33],
+                [444,13,28,18,22,1.2,4,13,25],
+                [490,16,28,19,23,1.2,4,13,36],
+                [538,18,28,21,25,1.2,4,14,47],
+                [588,20,28,22,26,1.2,4,14,60],
+                [640,22,28,23,27,1.2,4,14,73],
+                [694,24,28,24,29,1.2,4,15,88],
+                [750,27,29,25,30,1.2,4,15,103],
+                [808,29,29,27,32,1.2,4,15,120],
+                [868,31,29,28,33,1.2,4,16,137],
+                [930,31,29,28,34,1.2,4,16,156],
+                [994,31,29,30,36,1.2,4,16,175],
+                [1060,31,29,31,37,1.2,4,17,196],
+                [1128,31,29,33,39,1.2,4,17,217],
+                [1198,31,30,33,40,1.2,4,17,240]
+            ],
+            "slots": [
+                "gun",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "packofdogs",
+                    "level": 1
+                },
+                {
+                    "skillTag": "teamspirit",
+                    "level": 1
+                },
+                {
+                    "skillTag": "overclocked",
+                    "level": 2
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 3
+                },
+                {
+                    "skillTag": "knowledgeisgood",
+                    "level": 5
+                },
+                {
+                    "skillTag": "armchairgeneral",
+                    "level": 6
+                },
+                {
+                    "skillTag": "teamspirit",
+                    "level": 8,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "overclocked",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "knowledgeisgood",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "armchairgeneral",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "knowledgeisgood",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "kreyang",
+            "name": "Kreyang",
+            "description": "Known as \"Defender of the Archives\", Kreyang kept this title even after an unfortunate event in a cryogenic chamber altered her cell structure. Now forbidden to touch her beloved archives for fear of damaging them, Kreyang is triply ferocious in defending Drakken history and lore.",
+            "stats": [
+                [530,19,28,25,30,1.2,1.5,8,18],
+                [576,20,28,27,32,1.2,1.5,8,15],
+                [626,22,28,28,34,1.2,1.5,8,25],
+                [680,24,28,29,35,1.2,1.5,9,35],
+                [738,25,28,31,37,1.2,1.5,9,47],
+                [800,26,28,33,39,1.2,1.5,9,59],
+                [866,28,28,33,40,1.2,1.5,10,73],
+                [936,30,28,35,42,1.2,1.5,10,87],
+                [1010,33,28,38,46,1.2,1.5,10,103],
+                [1088,36,28,42,50,1.2,1.5,11,119],
+                [1170,40,28,45,54,1.2,1.5,11,137],
+                [1256,44,28,48,58,1.2,1.5,11,155],
+                [1346,47,28,52,62,1.2,1.5,12,175],
+                [1440,50,28,55,66,1.2,1.5,12,195],
+                [1538,54,28,58,70,1.2,1.5,12,217]
+            ],
+            "slots": [
+                "spear",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "defenderofthepast",
+                    "level": 1
+                },
+                {
+                    "skillTag": "winterjustcame",
+                    "level": 3
+                },
+                {
+                    "skillTag": "operate",
+                    "level": 4
+                },
+                {
+                    "skillTag": "endlessexpert",
+                    "level": 6
+                },
+                {
+                    "skillTag": "holdtheline",
+                    "level": 8
+                },
+                {
+                    "skillTag": "defenderofthepast",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "winterjustcame",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "endlessexpert",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "defenderofthepast",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "esseb",
+            "name": "Esseb Tarosh",
+            "description": "Not monster, native, prisoner, or crew, this strange apparition seems to belong to the ruins in a way that nothing else does. Any understanding of its powers and its origin are less important, however, than the simple fact that it is intelligent, useful, and does not want to eat you.",
+            "stats": [[500,19,32,32,45,1.4,4,8,18],[538,20,32,33,46,1.4,4,8,35],[580,21,32,36,50,1.4,4,8,45],[626,22,32,37,52,1.4,4,8,55],[676,23,32,39,54,1.4,4,8,67],[730,24,32,40,56,1.4,4,8,79],[788,25,32,41,58,1.4,4,8,93],[850,26,32,44,61,1.4,4,8,107],[916,28,32,46,64,1.4,4,8,123],[986,30,32,48,67,1.4,4,8,139],[1060,32,32,50,70,1.4,4,8,157],[1138,34,32,52,73,1.4,4,8,175],[1220,36,32,54,76,1.4,4,8,195],[1306,38,32,56,79,1.4,4,8,215],[1396,40,32,59,82,1.4,4,8,237]],
+            "slots": [
+                "sword",
+                "armor",
+                "device"
+            ],
+            "skills": [
+                {
+                    "skillTag": "scamper",
+                    "level": 1
+                },
+                {
+                    "skillTag": "dustdrainer",
+                    "level": 3
+                },
+                {
+                    "skillTag": "defenderofthepast",
+                    "level": 5
+                },
+                {
+                    "skillTag": "endlesslyadaptive",
+                    "level": 7
+                },
+                {
+                    "skillTag": "pilfer",
+                    "level": 9
+                },
+                {
+                    "skillTag": "dustdrainer",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "defenderofthepast",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "endlesslyadaptive",
+                    "level": 15,
+                    "skillLevel": 3
+                }
+            ]
+        },
+        {
+            "tag": "ayairi",
+            "name": "Ayairi Whairydd",
+            "description": "Born the seventh pup of a seventh pup of a seventh pup, yet unable to count higher than \"1, 2, lots\", Ayairi's glorious future was unlocked when prions from the labs of Auriga slightly altered her brain structure. Now by far the smartest being on Auriga, she hangs out with the dungeon's merchant, an ex-investment banker, discussing stochastic differential equations and the Black-Scholes model for option pricing.",
+            "stats": [
+                [725,0,30,40,28,0.7,1.5,6,0],
+                [766,0,30,44,31,0.7,1.5,6,35],
+                [811,0,30,49,34,0.7,1.5,6,45],
+                [860,0,30,53,37,0.7,1.5,6,55],
+                [913,0,30,59,41,0.7,1.5,6,67],
+                [970,0,30,63,44,0.7,1.5,6,79],
+                [1031,0,30,67,47,0.7,1.5,6,93],
+                [1096,0,30,73,51,0.7,1.5,6,107],
+                [1165,0,30,77,54,0.7,1.5,6,123],
+                [1238,0,30,83,58,0.7,1.5,6,139],
+                [1315,0,30,89,62,0.7,1.5,6,157],
+                [1396,0,30,93,65,0.7,1.5,6,175],
+                [1481,0,30,99,69,0.7,1.5,6,195],
+                [1570,0,30,104,73,0.7,1.5,6,215],
+                [1663,0,30,110,77,0.7,1.5,6,237]
+            ],
+            "skills": [
+                {
+                    "skillTag": "scamper",
+                    "level": 1
+                },
+                {
+                    "skillTag": "pilfer",
+                    "level": 2
+                },
+                {
+                    "skillTag": "overclocked",
+                    "level": 3
+                },
+                {
+                    "skillTag": "nyctophilia",
+                    "level": 4
+                },
+                {
+                    "skillTag": "repair",
+                    "level": 5
+                },
+                {
+                    "skillTag": "recycling",
+                    "level": 6
+                },
+                {
+                    "skillTag": "paramedic",
+                    "level": 7
+                },
+                {
+                    "skillTag": "pickpocket",
+                    "level": 8
+                },
+                {
+                    "skillTag": "soylentgreen",
+                    "level": 9
+                },
+                {
+                    "skillTag": "pilfer",
+                    "level": 10,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "overclocked",
+                    "level": 11,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "nyctophilia",
+                    "level": 12,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "recycling",
+                    "level": 13,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "paramedic",
+                    "level": 14,
+                    "skillLevel": 2
+                },
+                {
+                    "skillTag": "pickpocket",
+                    "level": 15,
+                    "skillLevel": 2
+                }
+            ]
+        }
+    ]
+}

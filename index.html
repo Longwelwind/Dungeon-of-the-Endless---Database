@@ -1,0 +1,97 @@
+<html ng-app="doteApp">
+<head>
+    <link rel="stylesheet" href="lib/reset.css" />
+    <link rel="stylesheet" href="loading.css" />
+    <link rel="stylesheet" href="design.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="google-site-verification" content="B6CZL8vOmp4ait4XHJAaV3-Sk1Ue2rrjRNr7i2uKf7E" />
+    <meta name="name" content="DotE - Database" />
+    <title>DotE - Database</title>
+</head>
+<body ng-controller="MainController">
+    <script type="text/javascript" src="/lib/angular.min.js"></script>
+    <script type="text/javascript" src="/lib/angular-route.min.js"></script>
+    <!--<script type="text/javascript" src="/lib/highcharts.js"></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.src.js"></script>
+    <script type="text/javascript" src="/lib/highcharts-ng.js"></script>
+    <script type="text/javascript" src="highcharts-theme.js"></script>
+    <script type="text/javascript" src="helper.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <div class="container">
+
+        <div style="height: 40px;"></div>
+
+        <a class="no-link" href="#/"><h1>Dungeon of the Endless - Database</h1></a>
+
+        <div style="height: 10px;"></div>
+
+        <!--<div class="panel-content navbar" style="display:flex;">
+            <a href="#/">
+                <div>
+                    Home
+                </div>
+            </a>
+            <a href="#/stats/">
+                <div>
+                    Statistics
+                </div>
+            </a>
+        </div>
+
+        <div style="height: 10px;"></div>-->
+
+        <!--<div id="breadcrumb" class="panel-content">
+            <div ng-repeat="breadcrumb in breadcrumbs">
+                <span>
+                    {{ breadcrumb }}
+                </span>
+                <span ng-show="!$last">
+                    ->
+                </span>
+            </div>
+        </div>
+
+        <div style="height: 15px;"></div>-->
+
+        <div class="panel-content" style="display: flex; justify-content: center;height: 140px;align-items: center;" ng-show="loading">
+            <div id="bowlG">
+            <div id="bowl_ringG">
+            <div class="ball_holderG">
+            <div class="ballG">
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="panel-content" ng-show="!loading" ng-view>
+
+        </div>
+
+        <div style="height: 15px;"></div>
+
+        <div id="footer" class="panel-content" ng-mouseenter="footerFull = true" ng-mouseleave="footerFull = false">
+            Created by Longwelwind - With data from <a style="font-weight: bold;" class="no-link" href="http://dungeon-of-the-endless.wikia.com">DotE Wiki</a> - All images and texts belongs to their respective owners <span ng-show="footerFull">(Still no <i>"Safe Zone Full of Hot Chicks"</i> floor)</span>
+        </div>
+
+        <div style="height: 100px;"></div>
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//tracker.longwelwind.net/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 2]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="//tracker.longwelwind.net/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+    </div>
+</body>
+</html>

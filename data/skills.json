@@ -1,0 +1,577 @@
+{
+    "skills": {
+        "active": [
+            {
+                "tag": "armchairgeneral",
+                "name": "Armchair General",
+                "description": "Some leaders inspire by their absence.",
+                "effects": [
+                    "(Heroes on Floor) Attack power of +40/+60/+80 if this hero is in a room without monsters."
+                ],
+                "duration": 9,
+                "cooldown": 3
+            },
+            {
+                "tag": "battlemadness",
+                "name": "Battle Madness",
+                "effects": [
+                    "(Self) Attack power +20/+28/+32",
+                    "(Self) Attack range +8",
+                    "(Self) Attack Cooldown -0.4/-0.5/-0.6",
+                    "(Self) Can not move"
+                ],
+                "duration": 8,
+                "cooldown": 2
+            },
+            {
+                "tag": "cookingwithgas",
+                "name": "Cooking With Gas",
+                "effects": [
+                    "(Monsters in floor) Damage over time 20/24 HP/sec",
+                    "(Monsters in floor) Dust loot probability from monsters +30%/+40%"
+                ],
+                "duration": 8,
+                "cooldown": 3
+            },
+            {
+                "tag": "crawler",
+                "name": "Crawler",
+                "effects": [
+                    "(Self): Not aggro by mobs",
+                    "(Self): Speed +0/+8"
+                ],
+                "duration": 8,
+                "cooldown": 3
+            },
+            {
+                "tag": "dustdrainer",
+                "name": "Dust Drainer",
+                "effects": [
+                    "(Monsters in floor) Dust loot probability from monsters x2/x3"
+                ],
+                "duration": 11,
+                "cooldown": 3
+            },
+            {
+                "tag": "endlesslyadaptive",
+                "name": "Endlessly Adaptive",
+                "effects": [
+                    "(Major Modules and Artifacts in floor) Health Regen +12 / +18",
+                    "(Minor Modules in floor) Health Regen +6 / +18"
+                ],
+                "duration": 8,
+                "cooldown": 4
+            },
+            {
+                "tag": "engageturtlemode",
+                "name": "Engage Turtle Mode",
+                "effects": [
+                    "(Self) Defense +130/+200",
+                    "(Self) Speed -30/-20"
+                ],
+                "duration": 9,
+                "cooldown": 3
+            },
+            {
+                "tag": "healthwarning",
+                "name": "Health Warning",
+                "effects": [
+                    "(Mobs in room): Damage over time 25/35 HP/sec",
+                    "(Heroes in room): Damage over time 10/12 HP/sec"
+                ],
+                "duration": 9,
+                "cooldown": 2
+            },
+            {
+                "tag": "hellfire",
+                "name": "Hellfire",
+                "effects": [
+                    "(Mobs in room): Damage over time 25/45 HP/sec",
+                    "(Heroes in room): Damage over time 12/15 HP/sec",
+                    "(Self): Not affected by any damage over time "
+                ],
+                "duration": 10,
+                "cooldown": 3
+            },
+            {
+                "tag": "holdtheline",
+                "name": "Hold the Line",
+                "effects": [
+                    "(Heroes in room): Defense +100/+150",
+                    "(Mobs in room): Dust loot probability -40%/-30% "
+                ],
+                "duration": 9,
+                "cooldown": 2
+            },
+            {
+                "tag": "kneecapped",
+                "name": "Kneecapped",
+                "effects": [
+                    "(Mobs in room): Speed -50%/-75% ",
+                    "(Mobs in room): Damage over Time 25/35 HP/sec "
+                ],
+                "duration": 6,
+                "cooldown": 3
+            },
+            {
+                "tag": "lastsupper",
+                "name": "Last Supper",
+                "effects": [
+                    "(Heroes in room) Attack Power +26/+38/+50 "
+                ],
+                "duration": 8,
+                "cooldown": 2
+            },
+            {
+                "tag": "overclocked",
+                "name": "Overclocked",
+                "effects": [
+                    "(Minor Modules in room): Attack Power +50%/+75%/+100%"
+                ],
+                "duration": 9,
+                "cooldown": 2
+            },
+            {
+                "tag": "paramedic",
+                "name": "Paramedic",
+                "effects": [
+                    "(Heroes in room) Health Regen +12/+20/+28",
+                    "(Heroes in floor) Health Regen +6/+10/+14"
+                ],
+                "duration": 10,
+                "cooldown": "3/2/2"
+            },
+            {
+                "tag": "psychokiller",
+                "name": "Psycho Killer",
+                "effects": [
+                    "(Self): Attack Power +15/+25/+35",
+                    "(Self): Speed +15/+20/+25 "
+                ],
+                "duration": 7,
+                "cooldown": 2
+            },
+            {
+                "tag": "redplume",
+                "name": "Red Plume",
+                "effects": [
+                    "(Mobs in room): Attacks other monsters"
+                ],
+                "duration": "4/5/6",
+                "cooldown": 3
+            },
+            {
+                "tag": "runaway",
+                "name": "Run Away",
+                "effects": [
+                    "(Self): Speed +25/+30/+40"
+                ],
+                "duration": 9,
+                "cooldown": 2
+            },
+            {
+                "tag": "sacrifice",
+                "name": "Sacrifice",
+                "effects": [
+                    "(Self) Attack Power +130%/+140%",
+                    "(Self) Damage over time -20/25 HP/sec"
+                ],
+                "duration": 9,
+                "cooldown": 2
+            },
+            {
+                "tag": "sadoselfish",
+                "name": "Sado-Selfish",
+                "effects": [
+                    "(Self): Attack Power +50/+75 divided by heroes in room"
+                ],
+                "duration": 8,
+                "cooldown": 2
+            },
+            {
+                "tag": "shrapnellizer",
+                "name": "Shrapnellizer",
+                "effects": [
+                    "(Monsters in room) Damage of 180/280/360 HP",
+                    "(Heroes in room) Damage of 80/100/120 HP",
+                    "(Major Modules in room) Damage of 40/50/55 HP",
+                    "(Minor Modules in room) Damage of 30/40/45 HP"
+                ],
+                "duration": 1,
+                "cooldown": 3
+            },
+            {
+                "tag": "surgicalstriker",
+                "name": "Surgical Striker",
+                "effects": [
+                    "(Self): Attack Power +10/+20",
+                    "(Self): Attack Cooldown -0.3"
+                ],
+                "duration": 6,
+                "cooldown": 3
+            },
+            {
+                "tag": "verbalabuse",
+                "name": "Verbal Abuse",
+                "effects": [
+                    "(Heroes in room) Attack Power +12/+20",
+                    "(Heroes in room) Defense +25/+40"
+                ],
+                "duration": 9,
+                "cooldown": 3
+            },
+            {
+                "tag": "warcry",
+                "name": "War Cry",
+                "effects": [
+                    "(Self): Aggro all mobs",
+                    "(Self): Defense +70/+110 "
+                ],
+                "duration": 9,
+                "cooldown": 3
+            },
+            {
+                "tag": "warface",
+                "name": "War Face",
+                "effects": [
+                    "(Self): Attack Power +18/+30",
+                    "(Target): Attack Power -15 in unpowered rooms"
+                ],
+                "duration": 8,
+                "cooldown": 3
+            },
+            {
+                "tag": "warprofiteer",
+                "name": "War Profiteer",
+                "effects": [
+                    "(Self): Attack cooldown +200%/+100%",
+                    "(Monsters in room) Dust loot probability from monsters x2/x2.5"
+                ],
+                "duration": 10,
+                "cooldown": 2
+            },
+            {
+                "tag": "warrider",
+                "name": "War Rider",
+                "effects": [
+                    "(Self): Speed +10/+16",
+                    "(Self): Defense +50/+80"
+                ],
+                "duration": 10,
+                "cooldown": 2
+            },
+            {
+                "tag": "webslinger",
+                "name": "Webslinger",
+                "effects": [
+                    "(Mobs in room): Speed -75%/-95%"
+                ],
+                "duration": 8,
+                "cooldown": 2
+            },
+            {
+                "tag": "winterjustcame",
+                "name": "Winter Just Came",
+                "effects": [
+                    "(Mobs in room): Speed -40%/-60%"
+                ],
+                "duration": 8,
+                "cooldown": 3
+            }
+        ],
+        "passive": [
+            {
+                "tag": "amused",
+                "name": "Amused",
+                "description": "",
+                "effects": [
+                    "(Self): Speed -5%",
+                    "(Self): Health regen +7 in powered room"
+                ]
+            },
+            {
+                "tag": "badcompany",
+                "name": "Bad Company",
+                "description": "",
+                "effects": [
+                    "(Heroes in room): Defense -10%",
+                    "(Self): Attack power +15 if alone in the room"
+                ]
+            },
+            {
+                "tag": "bloodyshowman",
+                "name": "Bloody Showman",
+                "description": "",
+                "effects": [
+                    "(Self): Attack Power +4/+6 for each mob in room (max 30/40)"
+                ]
+            },
+            {
+                "tag": "dangerjunkie",
+                "name": "Danger Junkie",
+                "description": "",
+                "effects": [
+                    "(Self): Speed +3/+5 if alone in the room",
+                    "(Self): Attack Power +12/+18 if alone in the room"
+                ]
+            },
+            {
+                "tag": "defenderofthepast",
+                "name": "Defender of the Past",
+                "description": "",
+                "effects": [
+                    "(Self): Attack power +10/+15/+24 if an artifact is active in floor (Research in progress)",
+                    "(Self): Speed +7/+10/+13 if an artifact is active in floor (Research in progress)"
+                ]
+            },
+            {
+                "tag": "duelist",
+                "name": "Duelist",
+                "description": "",
+                "effects": [
+                    "(Self): Attack Cooldown -0.2/-0.4 if targeted by only 1 mob"
+                ]
+            },
+            {
+                "tag": "dustcells",
+                "name": "Dust Cells",
+                "description": "",
+                "effects": [
+                    "(Self): +3/+5 Health Regen in Powered Room",
+                    "(Self): +7/+12 Defense in Powered Room",
+                    "(Self): +15%/+10% Food Cost to Heal "
+                ]
+            },
+            {
+                "tag": "dustthirst",
+                "name": "Dust Thirst",
+                "description": "",
+                "effects": [
+                    "(Self): Attack power +6/+12 from killing mobs (max 25)",
+                    "(Target): Dust loot probability -20%/-15% "
+                ]
+            },
+            {
+                "tag": "endlessexpert",
+                "name": "Endless Expert",
+                "description": "",
+                "effects": [
+                    "(Self) : +2/+3 to Science resource per turn"
+                ]
+            },
+            {
+                "tag": "energivore",
+                "name": "Energivore",
+                "description": "",
+                "effects": [
+                    "(Self): Health Regen +15/+25 in unpowered rooms with mobs"
+                ]
+            },
+            {
+                "tag": "extenders",
+                "name": "Extenders",
+                "description": "",
+                "effects": [
+                    "(Heroes in Floor): Heals cost -10%/-17%"
+                ]
+            },
+            {
+                "tag": "feral",
+                "name": "Feral",
+                "description": "",
+                "effects": [
+                    "(Self): +8% attack power",
+                    "(Self): -4% defense"
+                ]
+            },
+            {
+                "tag": "gotyourback",
+                "name": "Got Your Back",
+                "description": "",
+                "effects": [
+                    "(Self): +10% Defense when near group members they trust"
+                ]
+            },
+            {
+                "tag": "ironfist",
+                "name": "Iron Fist",
+                "description": "",
+                "effects": [
+                    "(Heroes in room): Attack Power +4/+8 for each other hero in room"
+                ]
+            },
+            {
+                "tag": "kneedeepinblood",
+                "name": "Knee Deep in Blood",
+                "description": "",
+                "effects": [
+                    "(Self): Defense +2/+3 from killing mobs (max 14/22)"
+                ]
+            },
+            {
+                "tag": "knowledgeisgood",
+                "name": "Knowledge is Good",
+                "description": "",
+                "effects": [
+                    "(Heroes on floor): +2/+3/+4 wit"
+                ]
+            },
+            {
+                "tag": "masterhacker",
+                "name": "Master Hacker",
+                "description": "",
+                "effects": [
+                    "(Self): Wit +8/+14 for repairing",
+                    "(Minor Modules in Room): Defense +10/+15"
+                ]
+            },
+            {
+                "tag": "mefirst",
+                "name": "Me First",
+                "description": "",
+                "effects": [
+                    "(Self): Aggro all mobs"
+                ]
+            },
+            {
+                "tag": "missedagain",
+                "name": "Missed Again",
+                "description": "",
+                "effects": [
+                    "(Target): Attack Cooldown +0.1/+0.3"
+                ]
+            },
+            {
+                "tag": "needformorespeed",
+                "name": "Need for (More) Speed",
+                "description": "",
+                "effects": [
+                    "(Self): Speed +10/+15 if not alone in the room"
+                ]
+            },
+            {
+                "tag": "neurostunlite",
+                "name": "Neurostun Lite",
+                "description": "",
+                "effects": [
+                    "(Monsters in room): Speed -4/-7"
+                ]
+            },
+            {
+                "tag": "nyctophilia",
+                "name": "Nyctophilia",
+                "description": "",
+                "effects": [
+                    "(Heroes in unpowered room): Speed +5/+8",
+                    "(Monsters in room): Dust loot probability +5%/+7%"
+                ]
+            },
+            {
+                "tag": "operate",
+                "name": "Operate",
+                "description": "",
+                "effects": [
+                    "(Self): Can operate major modules"
+                ]
+            },
+            {
+                "tag": "packofdogs",
+                "name": "Pack of Dogs",
+                "description": "",
+                "effects": [
+                    "(Self) Attack power +6% when their mates are nearby."
+                ]
+            },
+            {
+                "tag": "pickpocket",
+                "name": "Pickpocket",
+                "description": "",
+                "effects": [
+                    "(Target): Dust loot probability +12%/+18%/+25%"
+                ]
+            },
+            {
+                "tag": "pilfer",
+                "name": "Pilfer",
+                "description": "",
+                "effects": [
+                    "(Self): Dust +1/+2/+3 from room with Dust"
+                ]
+            },
+            {
+                "tag": "placebo",
+                "name": "Placebo",
+                "description": "",
+                "effects": [
+                    "(Heroes in powered room): Health Regen +10/+15"
+                ]
+            },
+            {
+                "tag": "recycling",
+                "name": "Recycling",
+                "description": "",
+                "effects": [
+                    "(Heroes in Room): Industry +0.2/+0.3/+0.4 from killing mobs"
+                ]
+            },
+            {
+                "tag": "repair",
+                "name": "Repair",
+                "description": "",
+                "effects": [
+                    "(Self): Can repair damaged modules"
+                ]
+            },
+            {
+                "tag": "scamper",
+                "name": "Scamper",
+                "description": "",
+                "effects": [
+                    "(Self): Mobs don't slow down the hero"
+                ]
+            },
+            {
+                "tag": "skulker",
+                "name": "Skulker",
+                "description": "",
+                "effects": [
+                    "(Self): Not aggro by mobs"
+                ]
+            },
+            {
+                "tag": "soylentgreen",
+                "name": "Soylent Green",
+                "description": "",
+                "effects": [
+                    "(Self): Food +0.2/+0.3 from killing mobs"
+                ]
+            },
+            {
+                "tag": "stimulated",
+                "name": "Stimulated",
+                "description": "",
+                "effects": [
+                    "(Self): +5% speed",
+                    "(Self): +8% defence "
+                ]
+            },
+            {
+                "tag": "teamspirit",
+                "name": "Team Spirit!",
+                "description": "",
+                "effects": [
+                    "(Self): +15/+25 Defense if with another character.",
+                    "(Self): +15/+20 Attack if with another character"
+                ]
+            },
+            {
+                "tag": "theoptimizator",
+                "name": "The Optimizator",
+                "description": "",
+                "effects": [
+                    "(Minor Modules in room): Attack Cooldown -10%/-20%"
+                ]
+            }
+        ]
+    }
+}

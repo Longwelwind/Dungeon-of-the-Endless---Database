@@ -1,0 +1,22 @@
+<div my-tooltip>
+    <div>
+        <div ng-include="'skill-icon.html'">
+
+        </div>
+    </div>
+    <div class="tooltip">
+        <h4>{{skill.name}}</h4>
+        <i>{{skill.description}}</i>
+        <ul class="list">
+            <li ng-repeat="effect in skill.effects">{{ effect }}</li>
+        </ul>
+        <div ng-show="api.isSkillActive(skill)">
+            <div>
+                Duration: {{skill.duration}}
+            </div>
+            <div>
+                Cooldown: {{skill.cooldown}}
+            </div>
+        </div>
+    </div>
+</div>

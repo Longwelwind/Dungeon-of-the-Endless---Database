@@ -1,0 +1,5 @@
+<div ng-class="{'skill-active-icon-div': api.isSkillActive(skill), 'skill-passive-icon-div': !api.isSkillActive(skill)}">
+    <a href="#/skill/{{skill.tag}}" alt="{{skill.name}}">
+        <img alt="{{skill.name}}" class="skill-icon-img" src="/img/skill/{{skill.tag}}.png" />
+    </a>
+</div>

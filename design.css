@@ -1,0 +1,200 @@
+body {
+    background: url("img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.container {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#footer {
+    font-size: 10px;
+}
+
+#breadcrumb {
+    font-size: 12px;
+}
+
+.panel-content {
+    background-color: rgba(0, 0, 0, 0.9);
+
+    border: 1px solid #323232;
+    border-radius: 4px;
+
+    padding: 15px;
+}
+
+h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.tooltip {
+    position: absolute;
+
+    background: rgba(0, 0, 0, 0.92);
+    border: 1px solid black;
+    border-radius: 4px;
+
+    padding: 5px;
+
+    font-size: 90%;
+    text-align: left;
+
+}
+
+.tooltip-hidden {
+    display: none;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.panel {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    border-spacing: 2px;
+
+    box-sizing: border-box;
+    text-align: center;
+}
+
+table th {
+    border-bottom; 1px solid white;
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.appear {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.disappear {
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+/**
+ * Navbar
+ */
+
+.navbar {
+    padding: 0px 10px;
+}
+
+.navbar a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.navbar a div {
+    min-width: 50px;
+    margin: 12px 15px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/**
+ * icon
+ */
+
+.hero-div {
+    width: 80px;
+    height: 80px;
+
+}
+
+.hero-img {
+    width: 99%;
+    height: 99%;
+}
+
+.skill-active-icon-div {
+    width: 80px;
+    height: 62px;
+
+    padding: 2px;
+
+    background-image: url("/img/skill/background-active.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.skill-passive-icon-div {
+    width: 54px;
+    height: 62px;
+
+    padding: 2px;
+
+    background-image: url("/img/skill/background-passive.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.skill-icon-img {
+    width: 97%;
+    height: 97%;
+}
+
+.res-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-size: 32px 32px;
+    background-position: center center;
+}
+
+.res-food-icon {
+    background-image: url("/img/res/food.png");
+}
+
+/**
+ * Hero view page
+ */
+
+.meta-icon {
+    width: 108px;
+    height: 108px;
+}
+
+.stats-table {
+    width: 100%;
+    font-size: 90%;
+    text-align: center;
+}
+
+.no-found-div {
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.no-link {
+    color: inherit;
+    text-decoration: inherit;
+}

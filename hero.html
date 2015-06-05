@@ -1,0 +1,64 @@
+<div style="display: flex; justify-content: space-between;">
+    <div style="width: 800px;">
+        <div class="panel meta-div" style="min-height: 108px;">
+            <div class="meta-icon" style="float: left; margin-right: 10px;">
+                <img src="/img/hero/{{hero.tag}}.png" />
+            </div>
+
+            <div style="padding-left: 10px;">
+                <h2 style="padding-top: 2px;">{{hero.name}}</h2>
+
+                <div style="font-style: italic;">
+                    "{{hero.description}}"
+                </div>
+            </div>
+        </div>
+        <div ng-show="hero.slots.length > 0" style="display: flex;margin-top: 15px;">
+            <div class="panel" style="display: flex; padding: 5xp; width: 376px; justify-content: space-between;">
+                <div ng-repeat="slot in hero.slots track by $index">
+                    <img alt="{{slot}}" src="/img/slot/{{slot}}.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="panel hero-skin-div" style=" margin-left: 15px; text-align: center;">
+            <img src="/img/heroskin/{{hero.tag}}.png" />
+        </div>
+    </div>
+</div>
+
+
+<br/>
+
+<table class="stats-table">
+    <tr>
+        <th>Level</th>
+        <th>Hit Points</th>
+        <th>Defense</th>
+        <th>Speed</th>
+        <th>DPS</th>
+        <th>Attack Power</th>
+        <th>Attack Cooldown</th>
+        <th>Range</th>
+        <th>Wit</th>
+        <th>Cost To Recruit</th>
+        <th style="width: 140px;">Skills</th> <!-- Skill row, we make it at least big enough to contain one passive and one active -->
+    </tr>
+    <tr ng-repeat="level in api.getLevels()" ng-init="stat = hero.stats[level-1]">
+        <td style="height: 63px;font-weight: bold;">{{ level }}</td>
+        <td>{{ stat[0] }}</td>
+        <td>{{ stat[1] }}</td>
+        <td>{{ stat[2] }}</td>
+        <td>{{ stat[3] }}</td>
+        <td>{{ stat[4] }}</td>
+        <td>{{ stat[5] }}s</td>
+        <td>{{ stat[6] }}</td>
+        <td>{{ stat[7] }}</td>
+        <td>{{ stat[8] }}<!--<span class="res-icon res-food-icon"></span>--></td>
+        <td style="display: flex; justify-content: space-around;">
+            <div ng-include="'skill-icon-tooltip.html'" ng-repeat="skill in api.getUnlockSkills(hero, level)"></div>
+        </td>
+    </tr>
+</table>

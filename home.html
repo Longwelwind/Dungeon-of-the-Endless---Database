@@ -1,0 +1,29 @@
+<div>
+    <form>
+        Search: <input type="text" name="searchTerm" ng-model="searchTerm" ng-change="onSearchTermChange()">
+    </form>
+</div>
+
+
+<div style="display: flex;">
+    <div style="width: 50%;padding-right: 10px;">
+        <h2>Heroes:</h2>
+        <div style="padding-right: 10px;display: flex; justify-content: center; flex-wrap: wrap;">
+            <span style="margin-left: 2px;" ng-repeat="hero in api.getHeroes()" ng-class="{disappear: !contains(heroesResults, hero), appear: contains(heroesResults, hero)}" ng-include="'hero-icon.html'"></span>
+        </div>
+    </div>
+
+    <div style="width: 50%;">
+        <h2>Skills</h2>
+
+        <h3>Active:</h3>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <span style="margin-left: 2px;" ng-repeat="skill in api.getActiveSkills()" ng-class="{disappear: !contains(activeSkillsResults, skill), appear: contains(activeSkillsResults, skill)}" ng-include="'skill-icon-tooltip.html'"></span>
+        </div>
+
+        <h3>Passive:</h3>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <span style="margin-left: 2px;" ng-repeat="skill in api.getPassiveSkills()" ng-class="{disappear: !contains(passiveSkillsResults, skill), appear: contains(passiveSkillsResults, skill)}" ng-include="'skill-icon-tooltip.html'"></span>
+        </div>
+    </div>
+</div>
